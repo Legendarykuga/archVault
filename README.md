@@ -28,8 +28,12 @@ Current vault balance: 200.00
 You withdrew 200.00 from the vault.
 5. File structure
 vault_savings/
-├── vault.py       # Main Python logic
-└── vault.txt      # Where the savings are stored
+├── src/
+│   └── main.rs        # Main Rust logic (Vault system)
+├── vault.bin          # Binary file where deposits are stored (serialized)
+├── Cargo.toml         # Project dependencies and metadata
+└── README.md          # Project documentation
+
 6. Author
 Kuga
 GitHub: @Legendarykuga
