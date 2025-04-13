@@ -53,7 +53,7 @@ A secure, gas-efficient, and user-centric vault system built for Arch Network â€
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/yourusername/archVault.git](https://github.com/Legendarykuga/archVault.git)
+    git clone https://github.com/Legendarykuga/archVault.git
     cd archVault
     ```
 
