@@ -137,12 +137,3 @@ The ArchVault smart contract incorporates several safeguards to protect user fun
 * **Emergency Fee Handling**: The penalty amount from emergency withdrawals is correctly calculated and transferred to the treasury.
 * **Failsafe Checks**: The contract includes checks to prevent common errors, such as arithmetic underflows, incorrect token transfers, and unauthorized access.
 * **CW20 Token Handling**: The contract correctly handles deposits and withdrawals of CW20 tokens, including necessary `transfer_from` and `transfer` calls.
-
----
-
-## 🚀 Future Enhancements
-
-* **More Flexible Penalty Mechanism:** Allow the penalty to be configurable.
-* **Support for different lock mechanisms**: Explore different ways to lock funds.
-* **Integration with other CosmWasm contracts.**
-* **Testing**: Add more comprehensive tests.
